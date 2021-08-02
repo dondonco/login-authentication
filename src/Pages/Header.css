@@ -1,0 +1,29 @@
+* {
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  z-index: 1;
+  height: 60px;
+  background: #171717;
+  color: #f4f4f4;
+  align-items: center;
+}
+
+.welcome__message {
+  flex: 0.3;
+  font-size: 30px;
+}
+
+.navigation {
+  flex: 0.7;
+  display: flex;
+  justify-content: center;
+}
+
+.navigation__items {
+  color: #f4f4f4;
+  padding: 10px;
+}
